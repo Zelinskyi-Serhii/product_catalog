@@ -1,0 +1,21 @@
+.successMessage {
+  position: fixed;
+  top: -50px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: green;
+  color: white;
+  transition: top 0.3s ease-out;
+
+  &__message {
+    padding: 10px;
+  }
+
+  &-visible {
+    top: 0;
+  }
+}
